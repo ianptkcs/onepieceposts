@@ -1,0 +1,41 @@
+.filtro {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.lista-item {
+    width: fit-content;
+    height: auto;
+    padding: 0.4rem;
+
+    color: var(--cinza-escuro);
+    background-color: var(--cinza-medio);
+
+    list-style: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+    border-radius: 0.5rem;
+}
+
+.lista-botao {
+    color: var(--cinza-medio);
+    background-color: transparent;
+
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.filtro-selected {
+    color: var(--verde-destaque);
+    background-color: var(--verde-petróleo);
+}

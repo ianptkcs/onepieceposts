@@ -1,0 +1,15 @@
+.searchbar {
+    width: 100%;
+    height: 4rem;
+    padding: 0.5rem 1em 0.5rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+
+    color: var(--cinza-claro);
+    font-family: var(--fonte);
+    font-size: 1.4rem;
+
+    background: var(--cinza-escuro) url('./assets/search.svg') no-repeat left;
+    background-size: 3rem;
+    background-position-x: 1rem;
+}
